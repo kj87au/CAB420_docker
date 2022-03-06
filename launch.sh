@@ -20,7 +20,7 @@ if [[ "$have_image" -eq 1 ]]; then
   echo "Image Found!"
 else
   echo "Building Image!"
-  sudo docker build -f docker/$NAME.Dockerfile -t $NAME .
+  sudo docker build --network=host --force-rm -f docker/$NAME.Dockerfile -t $NAME .
 fi
 
 if [[ "$have_container" -eq 1 ]]; then
