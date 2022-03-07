@@ -1,5 +1,7 @@
 # CAB420_docker
-This is a docker setup for CAB420 
+This is a docker setup for CAB420, This will not be maintained passed end of Semester 1, 2022. 
+
+Use this setup at your own risk, I'm neither a emulation or security expert.
 
 ## Requirements
 
