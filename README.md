@@ -41,7 +41,7 @@ Once the jupyter notebook is runnning open the links provided.
 ## Problems or Errors
 
 It may spew some errors relating to GPU placement, would look like this...
-
+```console
 2022-03-02 02:34:01.159200: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:939] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
-
+```
 This can be ignored (at least from what I can tell)
