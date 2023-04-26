@@ -1,5 +1,3 @@
-# This file is the build environment to use PPR-Net
-
 # Get the base image.
 FROM nvidia/cuda:11.5.0-cudnn8-devel-ubuntu18.04 
 
